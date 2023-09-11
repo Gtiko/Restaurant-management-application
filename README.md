@@ -17,15 +17,3 @@ The owners must sign up for a new account (using a unique email, phone number, f
     * This screen shows the owner's information (email, phone number, full name, password, address)
     * Owners can change their phone number, password, full name, and address on the screen, but not email.
     * Owners can log out of the application
-## Hint: Suggested database design. You can have a single collection 'users' as below
-{
-    _id: ObjectId(),
-    name, phone....
-    foods:[
-        ...
-    ],
-    notes: [
-        ...
-    ]
-}
-
