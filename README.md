@@ -1,7 +1,5 @@
 
 ## Restaurant Management App
-
-You will create a mobile application to help restaurant owners manage their food.
   
 The owners must sign up for a new account (using a unique email, phone number, full name, password, and address). Every time they login in successfully, the application will display three tabs:
 1. **List of Foods**
