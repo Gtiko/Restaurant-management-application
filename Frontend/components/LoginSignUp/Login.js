@@ -8,10 +8,8 @@ import {
 import { useContext, useState } from "react";
 import AsyncLocalStorage from "@react-native-async-storage/async-storage";
 import { GlobalContext } from "../GlobalContext";
+import { KEY, LOCAL_IP } from "../config/constant";
 
-// const LOCAL_IP = "172.19.142.49";
-const LOCAL_IP = "localhost";
-const KEY = "token";
 
 export default function Login({ navigation }) {
   const [state, setState] = useState({ username: "", password: "" });

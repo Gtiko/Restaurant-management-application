@@ -6,11 +6,10 @@ import LoginPage from "./components/LoginPage";
 import MainPage from "./components/MainPage";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { KEY, LOCAL_IP } from "./components/config/constant";
 
 const Stack = createNativeStackNavigator();
-// const LOCAL_IP = "172.19.142.49";
-const LOCAL_IP = "localhost";
-const KEY = "token";
+
 
 export default function App() {
   const [data, setData] = useState([]);

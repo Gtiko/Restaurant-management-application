@@ -9,8 +9,8 @@ import {
 } from "react-native";
 import { GlobalContext } from "../GlobalContext";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { KEY } from "../config/constant";
 
-const KEY = "token";
 
 export default function DisplayProfile({ navigation }) {
   const { ownerData, setOwnerData } = useContext(GlobalContext);
